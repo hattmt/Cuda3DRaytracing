@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="vec3.cu">
+      <Filter>cuda_lib</Filter>
+    </CudaCompile>
+    <CudaCompile Include="camera_cuda.cu">
+      <Filter>cuda_lib</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cameras.cpp">
+      <Filter>Cpp_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="GestiondeFenetreWin32.cpp">
+      <Filter>Cpp_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="interactions_Win32.cpp">
+      <Filter>Cpp_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Cpp_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3D.cpp">
+      <Filter>Cpp_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="open_obj_files.cpp">
+      <Filter>fichiers obj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec3.h">
+      <Filter>cuda_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cameras.h">
+      <Filter>Cpp_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="GestiondeFenetreWin32.h">
+      <Filter>Cpp_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Cpp_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3D.h">
+      <Filter>Cpp_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_test.h">
+      <Filter>cuda_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="open_obj_files.h">
+      <Filter>fichiers obj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Cpp_lib">
+      <UniqueIdentifier>{74a9e5ab-b9e2-463f-b3e4-ca8669b6402f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda_lib">
+      <UniqueIdentifier>{9a110017-b923-4b00-aedd-2e71d650af21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fichiers obj">
+      <UniqueIdentifier>{15431971-52f1-4087-8cee-5770803ec4ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

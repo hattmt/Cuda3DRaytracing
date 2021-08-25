@@ -1,0 +1,107 @@
+﻿  Compiling CUDA source file camera_cuda.cu...
+  Compiling CUDA source file vec3.cu...
+  
+  D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu -rdc=true -I.\ -I"C:\Program Files (x86)\Visual Leak Detector\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\camera_cuda.cu.obj "D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\camera_cuda.cu" 
+  
+  D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu -rdc=true -I.\ -I"C:\Program Files (x86)\Visual Leak Detector\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\vec3.cu.obj "D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\vec3.cu" 
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/vec3.cu(94): warning : variable "v_tmp" is used before its value is set
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/vec3.cu(106): warning : variable "v_tmp" is used before its value is set
+  
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.h(54): warning : extra ";" ignored
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(160): warning : variable "A" was declared but never referenced
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(160): warning : variable "B" was declared but never referenced
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(160): warning : variable "C" was declared but never referenced
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(326): warning : pointless comparison of unsigned integer with zero
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(329): warning : pointless comparison of unsigned integer with zero
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(332): warning : pointless comparison of unsigned integer with zero
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/vec3.cu(94): warning : variable "v_tmp" is used before its value is set
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/vec3.cu(106): warning : variable "v_tmp" is used before its value is set
+  
+  vec3.cu
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\vec3.cu(106): warning C4700: variable locale 'v_tmp' non initialisée utilisée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.h(54): warning : extra ";" ignored
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(326): warning : pointless comparison of unsigned integer with zero
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(329): warning : pointless comparison of unsigned integer with zero
+  
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(332): warning : pointless comparison of unsigned integer with zero
+  
+  camera_cuda.cu
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(396): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(397): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(427): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:/programming/Visual Studio 2017-19/projet3Dcuda/projet3Dcuda/camera_cuda.cu(427): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+  cameras.cpp
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(34,21): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(47,24): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(23,12): warning C4101: 'a' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(23,25): warning C4101: 'x1' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(18,41): warning C4101: 'k' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(23,9): warning C4101: 'b' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(23,18): warning C4101: 'delta' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(23,15): warning C4101: 'c' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(18,44): warning C4101: 'diff_tmp' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(23,29): warning C4101: 'x2' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(134,15): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(135,15): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(143,52): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\cameras.cpp(144,18): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  GestiondeFenetreWin32.cpp
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(29,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(132,17): warning C4244: 'initialisation' : conversion de 'FLOAT' en 'UINT32', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(146,52): warning C4244: 'argument' : conversion de 'FLOAT' en 'UINT32', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(146,28): warning C4244: 'argument' : conversion de 'FLOAT' en 'UINT32', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(149,88): warning C4244: 'argument' : conversion de 'FLOAT' en 'UINT32', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(149,64): warning C4244: 'argument' : conversion de 'FLOAT' en 'UINT32', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(149,127): warning C4244: 'argument' : conversion de 'FLOAT' en 'UINT32', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(177,64): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\GestiondeFenetreWin32.cpp(177,12): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  interactions_Win32.cpp
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\interactions_Win32.cpp(141,20): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\interactions_Win32.cpp(226,15): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\interactions_Win32.cpp(244,15): warning C4101: 'new_time' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\interactions_Win32.cpp(243,15): warning C4101: 'prev_time' : variable locale non référencée
+  open_obj_files.cpp
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(12,24): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(23,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(25,16): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(11,9): warning C4101: 'a' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(11,12): warning C4101: 'b' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(68,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(66,8): warning C4101: 'read_tmp' : variable locale non référencée
+D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda\open_obj_files.cpp(65,7): warning C4101: 'vec3_tmp' : variable locale non référencée
+  sphere.cpp
+  vector3D.cpp
+  Génération de code en cours...
+  
+  D:\programming\Visual Studio 2017-19\projet3Dcuda\projet3Dcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -dlink -o x64\Debug\projet3Dcuda.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64" cudadevrt.lib cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\camera_cuda.cu.obj x64\Debug\vec3.cu.obj 
+  cudadevrt.lib
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  camera_cuda.cu.obj
+  vec3.cu.obj
+LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/LTCG'
+     Création de la bibliothèque D:\programming\Visual Studio 2017-19\projet3Dcuda\x64\Debug\projet3Dcuda.lib et de l'objet D:\programming\Visual Studio 2017-19\projet3Dcuda\x64\Debug\projet3Dcuda.exp
+  LINK : /LTCG spécifié mais aucune génération de code requise ; supprimez /LTCG de la ligne de commande de l'édition de liens pour améliorer les performances de l'éditeur de liens
+  projet3Dcuda.vcxproj -> D:\programming\Visual Studio 2017-19\projet3Dcuda\x64\Debug\projet3Dcuda.exe
