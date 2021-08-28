@@ -6,8 +6,10 @@ Projet Ray tracing C++ et Cuda:
 4 sphères avec physique , rebonds ,collision  tout en temps réel 
 ,possibilité de changer la position des sphères et d'une source lumineuse.
 
-Envoi de vecteurs , calcul du trajet ,des rebonds , des objets, leur couleurs et de l'éloignement de la source lumineuse puis affichage sur l'écran pixel par pixel.
+Envoi de vecteurs sur toute la surface de l'écran (plan 2D) depuis la caméra ou point de vue.
+Calcul du trajet ,des rebonds , des objets, leur couleurs et de l'éloignement de la source lumineuse puis affichage sur l'écran pixel par pixel(Plan 3D derrière le plan 2D).
 Les calculs sont effectués pour chaques vecteurs envoyés , ils ont été parallélisés sur gpu avec CUDA, pour avoir du temps réel.
+
 ![image](https://user-images.githubusercontent.com/56161715/131219431-20711954-b658-4041-bb5e-3c6fe838d331.png)
 
  
