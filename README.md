@@ -1,7 +1,11 @@
 # Cuda3DRaytracing
 basis of ray tracing:  2 luminosity sources , physic with spheres and textures in real time ,visual studio 2019 and cuda are needed.Frames are generated pixel by pixel.
 
-Projet fait à l'ESIEA
+Projet Ray tracing C++ et Cuda:
+2 sources de lumière , textures de mur et planche.
+4 sphères avec physique , rebonds ,collision  tout en temps réel 
+possibilité de changer la position des sphères et d'une source lumineuse
+
 
 ![image](https://user-images.githubusercontent.com/56161715/131216646-49cc07a8-ad8c-47b4-83ed-eddc4086a498.png)
 
