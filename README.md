@@ -8,7 +8,8 @@ Projet Ray tracing C++ et Cuda:
 
 Envoi de vecteurs , calcul du trajet ,des rebonds , des objets, leur couleurs et de l'éloignement de la source lumineuse puis affichage sur l'écran pixel par pixel.
 Les calculs sont effectués pour chaques vecteurs envoyés , ils ont été parallélisés sur gpu avec CUDA, pour avoir du temps réel.
-![image](https://user-images.githubusercontent.com/56161715/131219224-60e7fe10-ec03-49f1-b1ba-00d7f926b815.png)
+![image](https://user-images.githubusercontent.com/56161715/131219431-20711954-b658-4041-bb5e-3c6fe838d331.png)
+
  
  Voici des screenschots
 
