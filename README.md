@@ -4,7 +4,7 @@ basis of ray tracing:  2 luminosity sources , physic with spheres and textures i
 Projet Ray tracing C++ et Cuda:
 2 sources de lumière , textures de mur et planche.
 4 sphères avec physique , rebonds ,collision  tout en temps réel 
-possibilité de changer la position des sphères et d'une source lumineuse
+,possibilité de changer la position des sphères et d'une source lumineuse.
 
 ![image](https://user-images.githubusercontent.com/56161715/131216679-b8eb0f9c-3590-4fa5-b0f5-e7d0a9b47782.png)
 
